@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+#    url: jdbc:postgresql://localhost:5439/postgres?currentSchema=mima
+    url: jdbc:oracle:thin:@//localhost:1521/XE
+    username: ysw
+    password: 1234
